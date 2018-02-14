@@ -7,6 +7,8 @@ import { Provider } from 'react-redux'
 
 import App from './components/App'
 
+import './index.css'
+
 render(
   <Provider store={createStore(rootReducer, applyMiddleware(thunk))}>
     <App />

@@ -6,4 +6,4 @@ export const fetchBitcoin = () => {
       .then(response => response.json())
       .then(json => dispatch({ type: FETCH_BITCOIN, bitcoin: json}))
   }
-}
+} 
